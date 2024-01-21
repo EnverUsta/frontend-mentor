@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 21rem;
+  min-width: 23rem;
   padding: 1rem;
   background-color: var(--dark-grey);
   color: hsl(0, 0%, 100%);
@@ -44,36 +44,36 @@ body {
 }
 
 .profile-card img {
-  width: 4.5rem;
+  width: 5rem;
   height: auto;
   clip-path: circle();
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 
 .profile-card .name {
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 800;
   margin-bottom: 0.4rem;
 }
 
 .profile-card .location {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--green);
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 
 .profile-card .title {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   font-weight: 400;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 
 .profile-card .social-links {
   display: flex;
   flex-direction: column;
   min-width: 100%;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
 .profile-card .social-links a {
@@ -83,7 +83,7 @@ body {
   background-color: var(--grey);
   border-radius: 0.5rem;
   min-width: 100%;
-  min-height: 2.5rem;
+  min-height: 2.8rem;
   padding: 0.2rem;
   text-decoration: none;
   color: inherit;
